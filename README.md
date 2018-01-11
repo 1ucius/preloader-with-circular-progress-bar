@@ -18,6 +18,7 @@ To start using this preloader just link preloader.js and preloader.css files to 
 
 IMPORTANT !!!Difference between values "startDegree" and "finalDegree" should be less or 360 degrees and bigger or -360 degrees for correct
 display of loading progress!!!
+
 10. startDegree - angle in degrees where progress bar starts; 
 11. finalDegree - angle in degrees where progress bar ends; 
 
