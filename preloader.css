@@ -1,0 +1,51 @@
+
+@font-face {
+    font-family: "Segoe";
+    src: url("Segoe.ttf");
+}
+
+.section-images img{
+    display: block;
+    width: 100%;
+}
+
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100000;
+    background-color: #100f11;
+    width: 100%;
+    height: 100vh;
+    opacity: 1; 
+}
+
+.preloader #progress-bar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+            transform: translate3d(-50%, -50%, 0); 
+}
+
+.preloader_unvisible {
+    opacity: 0;
+    pointer-events: none; 
+}
+
+.preloader__progress-percentage {
+    font-family: "Segoe";
+    font-size: 6vh;
+    line-height: 6vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+            transform: translate3d(-50%, -50%, 0);
+    height: 6vh;
+    width: 20vh;
+    text-align: center;
+    color: #00FFFF;
+    opacity: .6; 
+}
