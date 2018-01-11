@@ -4,7 +4,6 @@
 let settings = {
     preloaderBackground:          '#100f11', // Цвет фона прелоадера
     progressSize:                 375,       // Высота и ширина прогресс бара
-    progressSize:                 350,       // Высота и ширина прогресс бара
     progressColor:                '#00FFFF', // Цвет линии
     progressOpacity:              .5,       // Прозрачность линии( от 0 до 1)
     textColor:                    '#00FFFF', // Цвет текста
