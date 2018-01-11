@@ -15,8 +15,10 @@ To start using this preloader just link preloader.js and preloader.css files to 
 7. lineWidth - progress bar line width;
 8. lineCap - style of ending of the line('round', 'butt', 'square');
 9. preloaderAnimationDuration- ... :)
+
+IMPORTANT !!!Difference between values "startDegree" and "finalDegree" should be less or 360 degrees and bigger or -360 degrees for correct
+display of loading progress!!!
 10. startDegree - angle in degrees where progress bar starts; 
 11. finalDegree - angle in degrees where progress bar ends; 
-!!!Difference between values "startDegree" and "finalDegree" should be less or 360 degrees and bigger or -360 degrees for correct display of loading progress!!!
 
 Good luck on the expanse of GitHub and sorry for my English:)
