@@ -91,6 +91,7 @@ let angleMultiplier              = ( Math.abs(settings.startDegree) + Math.abs(s
 let startAngle                   = Math.radians(settings.startDegree);
 document.body.style.overflowY    = 'hidden';/////////Запрет прокрутки body, пока виден прелоадер, т.е. во время загрузки страници
 preloader.style.backgroundColor  = settings.preloaderBackground;
+progressPercentage.innerHTML = '0';
 ////////////////////
 
 /////////Описание события загрузки для каждой картинки на странице////////
