@@ -5,7 +5,7 @@ In this rep you can find everything you need to add beautiful preloader to your 
 This is customizable preloader with circular progress bar developed on vanilla js(ES6). Displays graphical and percentage page loading progress.
 To view follow the link: https://1ucius.github.io/preloader-with-circular-progress-bar/
 
-To start using this preloader just link preloader.js and preloader.css files to your main html file. If you wanna change it's styles and animation duration you gotta change folllowing values in "settings" in preloader.js:
+To start using this preloader just link preloader.js and preloader.css files to your main html file. If you wanna change it's styles and animation duration you gotta change following values in "settings" in preloader.js:
 1. preloaderBackground - background color;
 2. progressSize - height and width of progress bar;
 3. progressColor - progress bar fill color;
@@ -17,6 +17,6 @@ To start using this preloader just link preloader.js and preloader.css files to 
 9. preloaderAnimationDuration- ... :)
 10. startDegree - angle in degrees where progress bar starts; 
 11. finalDegree - angle in degrees where progress bar ends; 
-!!!Difference between values "startDegree" and "final Degree" should be less or 360 degrees and bigger or -360 degrees for correct display of loading progress!!!
+!!!Difference between values "startDegree" and "finalDegree" should be less or 360 degrees and bigger or -360 degrees for correct display of loading progress!!!
 
 Good luck on the expanse of GitHub and sorry for my English:)
