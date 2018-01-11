@@ -5,9 +5,9 @@ let settings = {
     preloaderBackground:          '#100f11', // Цвет фона прелоадера
     progressSize:                 375,       // Высота и ширина прогресс бара
     progressColor:                '#00FFFF', // Цвет линии
-    progressOpacity:              .15,       // Прозрачность линии( от 0 до 1)
+    progressOpacity:              .5,       // Прозрачность линии( от 0 до 1)
     textColor:                    '#00FFFF', // Цвет текста
-    textOpacity:                  .15,       // Прозрачность текста ( от 0 до 1)
+    textOpacity:                  .5,       // Прозрачность текста ( от 0 до 1)
     lineWidth:                    4,         // Толщина линии(px)
     lineCap:                      'round',   // Стиль окончания линии прогресс бара: 'round' - закругленная; 'butt', 'square' - обрубленная
     preloaderAnimationDuration:   1000,      // Длина анимации(мс)
