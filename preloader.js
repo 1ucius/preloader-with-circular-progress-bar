@@ -27,7 +27,25 @@ function setAttributes(elem, attrs) {
 
 let preloader          = document.createElement('div'),
     canvas             = document.createElement('canvas'),
-    progressPercentage = document.createElement('div');
+    progressPercentage = document.createElement('div'),
+    size;
+
+(function() {
+
+    let width  = window.innerWidth,
+        height = window.innerHeight;
+
+    if( width > height ) {
+
+        size = Math.min( settings.progressSize, height/2 );
+
+    } else {
+
+        size = Math.min( settings.progressSize, width - 50 );
+
+    }
+
+})();
 
 setAttributes( preloader, { class: "preloader", id: 'preloader', style: 'transition: opacity ' + settings.preloaderAnimationDuration/1000 + 's' } );
 setAttributes( canvas, { class: 'preloader__progress-bar', id: 'progress-bar' , width: settings.progressSize, height: settings.progressSize } );
