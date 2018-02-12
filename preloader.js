@@ -135,7 +135,7 @@ function onImageLoad() {
 
     imagesLoaded++;
 
-    //if( imagesLoaded >= imagesAmount ) hidePreloader();
+    if( imagesLoaded >= imagesAmount ) hidePreloader();
 
     progressStep = showedProgress;
     currentProgress = ( ( 100/imagesAmount ) * imagesLoaded ) << 0;
