@@ -163,7 +163,7 @@ function animate() {
     let timeDelta = Math.min( 1, ( performance.now() - startTime )/settings.preloaderAnimationDuration );
     showedProgress = progressStep + (progressDelta * timeDelta);
 
-    if (timeDelta < 1) {
+    if (timeDelta <= 1) {
 
         progressPercentage.innerHTML = Math.round(showedProgress);
         barCtx.clearRect(0, 0, progressBar.width, progressBar.height);
